@@ -63,7 +63,7 @@ namespace OnlineStoreForJewellery.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    var senderEmail = new MailAddress("classicratna.inc@gmail.com", "Classic Ratna");
+                    var senderEmail = new MailAddress("alamkritha.creations@gmail.com", "Alamkritha Jewelery");
                     var receiverEmail = new MailAddress(email, "Receiver");
 
                     var password = "zxcvbnm2022";
